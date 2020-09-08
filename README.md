@@ -1,4 +1,6 @@
-<h2>Click to see Demo: <a href="https://rozancew-michal.web.app/">Working link</a></h2>
+<h2>Click to see Demo: </h2>
+
+<a href="https://rozancew-michal.web.app/">Working link</a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
