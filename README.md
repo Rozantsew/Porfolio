@@ -1,6 +1,6 @@
 <h2>Click to see Demo: </h2>
 
-<a href="https://rozancew-michal.web.app/">Working link</a>
+<a href="https://rozancew-michal.web.app/">Link to the Application</a>
 
 <br>
 
