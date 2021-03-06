@@ -6,7 +6,7 @@ export const AsideLogo = styled.img`
   position: absolute;
   right: 0px;
   top: 300px;
-  height: 200px;
+  height: 250px;
   width: auto;
   ${mediaQueries("xs")`
     height: 250px;
@@ -23,9 +23,21 @@ export const ContactAsideLogo = styled(AsideLogo)`
   top: 140px;
   ${mediaQueries("md")`
     right: 0px;
-  top: 140px;
+    top: 10px;
   `}
 `;
+
+export const SkilsAsideLogo = styled(AsideLogo)`
+  top: 140px;
+  display: none;
+  ${mediaQueries("md")`
+    display: block;
+    right: 0px;
+    height: 220px;
+    top: 0px;
+  `}
+`;
+
 export const ProductAsideLogo = styled(AsideLogo)`
   top: 40px;
   display: none;

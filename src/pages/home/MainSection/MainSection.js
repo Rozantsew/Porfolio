@@ -20,7 +20,7 @@ import { MainHeader } from "../../../component/mainHeader/MainHeader";
 import { AsideLogo } from "../../../component/asideLogo/AsideLogo";
 
 import PhoneIcon from "../../../assets/images/Phone-icon.png";
-import Aside_Logo from "../../../assets/images/Personal_Details.svg";
+import Aside_Logo from "../../../assets/images/details.png";
 
 const MainSection = () => {
   return (

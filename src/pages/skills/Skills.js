@@ -9,9 +9,9 @@ import {
   ItemsWrapper,
 } from "./Skills.style";
 import { SkillsMainHeader } from "../../component/mainHeader/MainHeader";
-import { ProductAsideLogo } from "../../component/asideLogo/AsideLogo";
+import { SkilsAsideLogo } from "../../component/asideLogo/AsideLogo";
 // Images for the skills page
-import DesignCodding from "../../assets/images/skills.svg";
+import DesignCodding from "../../assets/images/skills.png";
 
 const Skils = (props) => {
   const SkillsItems = SkillsArray.map(({ id, imgUrl, skillDescription }) => {
@@ -27,7 +27,7 @@ const Skils = (props) => {
     <>
       <ContentWrapper>
         <StyledContainer>
-          <ProductAsideLogo src={DesignCodding}></ProductAsideLogo>
+          <SkilsAsideLogo src={DesignCodding}></SkilsAsideLogo>
           <SkillsMainHeader>
             Skills I wanted to <b>share</b>
           </SkillsMainHeader>

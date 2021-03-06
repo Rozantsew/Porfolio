@@ -11,7 +11,7 @@ import {
 } from "./Contact.style";
 import { ContactAsideLogo } from "../../component/asideLogo/AsideLogo";
 import Michael from "../../assets/images/Michael.png";
-import Aside_Logo from "../../assets/images/Personal_Details.svg";
+import Aside_Logo from "../../assets/images/details.png";
 const Contact = () => {
   return (
     <ContactSectionWrapper>
@@ -25,7 +25,7 @@ const Contact = () => {
           <DetailsWrapper>
             <DetailsParagraph>
               Michał Rozantsew <br></br>
-              Junior Web Developer <br></br>
+              Web Developer <br></br>
               rozancew@interia.pl
             </DetailsParagraph>
             <DetailsParagraph>

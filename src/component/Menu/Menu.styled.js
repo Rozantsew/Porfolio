@@ -12,7 +12,7 @@ export const StyledMenu = styled.nav`
   top: 0;
   right: 0;
   transition: transform 0.3s ease-in-out;
-  width: 200px;
+  width: 250px;
   z-index: 9;
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
   /* transition: transform translateX(100%); */
@@ -55,17 +55,22 @@ export const StyledMenu = styled.nav`
     &::after {
       content: "";
       width: 20px;
-      height: 1px;
+      height: 2px;
       background-color: #32cddc;
       position: absolute;
       bottom: -2px;
       left: 0;
       transition: all 0.4s ease;
-    }
-    &:hover::after {
-      width: 100%;
-      height: 2px;
-      background-color: #3490ff;
-    }
+
+    ${mediaQueries("md")`
+        right: 0;
+    `}
   }
+    
+  &:hover::after {
+    width: 100%;
+    height: 2px;
+    background-color: #3490ff;
+  }
+}
 `;

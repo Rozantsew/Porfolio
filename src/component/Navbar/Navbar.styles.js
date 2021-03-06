@@ -27,7 +27,7 @@ export const StyledLogoWrapper = styled(motion.div)`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 50px;
+  height: 100px;
   cursor: pointer;
 `;
 

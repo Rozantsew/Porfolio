@@ -63,5 +63,5 @@ export const CopyrightText = styled.p`
   line-height: 20px;
   color: #585757;
   text-align: center;
-  margin: 30px auto;
+  margin: 25px auto 0px;
 `;

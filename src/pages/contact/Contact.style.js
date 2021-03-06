@@ -4,7 +4,7 @@ import { mediaQueries } from "../../assets/styles/mediaQueries";
 export const ContactSectionWrapper = styled.div`
   background-color: #8bc9e5;
   padding: 100px 0px;
-  background-image: linear-gradient(to bottom right, #90e5e4, #89bce6, #3490ff);
+  background-image: linear-gradient(to right bottom, rgb(35, 150, 220), rgb(80, 207, 255), rgb(80, 207, 255), rgb(35, 150, 220));
 `;
 
 export const ContactHeader = styled.h1`

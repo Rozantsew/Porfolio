@@ -45,21 +45,6 @@ const SkillsArray = [
     skillDescription: "Css",
   },
   {
-    id: 7,
-    imgUrl: adobeXd,
-    skillDescription: "Adobe XD",
-  },
-  {
-    id: 8,
-    imgUrl: adobePhotoshop,
-    skillDescription: "Adobe Photoshop",
-  },
-  {
-    id: 9,
-    imgUrl: adobeIindesign,
-    skillDescription: "Adobe Indesign",
-  },
-  {
     id: 10,
     imgUrl: bootstrap,
     skillDescription: "Bootstrap",
@@ -67,7 +52,7 @@ const SkillsArray = [
   {
     id: 11,
     imgUrl: github,
-    skillDescription: "Git Hub",
+    skillDescription: "Git",
   },
   {
     id: 12,
@@ -84,5 +69,22 @@ const SkillsArray = [
     imgUrl: visualStudio,
     skillDescription: "Visual Studio Code",
   },
+  {
+    id: 7,
+    imgUrl: adobeXd,
+    skillDescription: "Adobe XD",
+  },
+  {
+    id: 8,
+    imgUrl: adobePhotoshop,
+    skillDescription: "Adobe Photoshop",
+  },
+  {
+    id: 9,
+    imgUrl: adobeIindesign,
+    skillDescription: "Adobe Indesign",
+  },
+
+
 ];
 export default SkillsArray;

@@ -28,7 +28,7 @@ export const StyledParagraph = styled.p`
 
 export const SkillsWrapper = styled.div`
   /* background-color: lightcoral; */
-  padding: 100px 0px;
+  padding: 100px 0px 50px;
   border-bottom: 1px solid rgb(52, 144, 255);
 `;
 

@@ -3,7 +3,7 @@ import { mediaQueries } from "../../assets/styles/mediaQueries";
 
 export const StyledBurger = styled.button`
   position: absolute;
-  top: 45px;
+  top: 30px;
   right: 0px;
   display: flex;
   flex-direction: column;
@@ -30,7 +30,7 @@ export const StyledBurger = styled.button`
     transform-origin: 1px;
 
     :nth-child(1) {
-      transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
+      transform: ${({ open }) => (open ? "rotate(47deg)" : "rotate(0)")};
     }
 
     :nth-child(2) {
@@ -40,7 +40,7 @@ export const StyledBurger = styled.button`
     }
 
     :nth-child(3) {
-      transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0deg)")};
+      transform: ${({ open }) => (open ? "rotate(-47deg)" : "rotate(0deg)")};
     }
   }
   ${mediaQueries("md")`
